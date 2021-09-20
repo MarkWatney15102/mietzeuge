@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.layout1 {
+  background-color: aqua;
+}
+
+.layout2 {
+  background-color: aquamarine;
+}
+
+.layout3 {
+  background-color: azure;
+}
+
+.layout4 {
+  background-color: bisque;
+}
+
+#articelImage img {
+  height: 500px !important;
+  width: 100% !important;
+  object-fit: cover;
+}

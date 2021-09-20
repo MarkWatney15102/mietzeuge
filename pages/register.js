@@ -1,4 +1,4 @@
-import { register } from "../lib/user";
+//import { register } from "../lib/user";
 
 export default function Register() {
     return <>

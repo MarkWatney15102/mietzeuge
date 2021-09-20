@@ -1,0 +1,13 @@
+.priceKaution,
+.daylyPriceContainer {
+    display: flex;
+  justify-content: space-between;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.priceKaution {
+    font-size: 15px;
+}

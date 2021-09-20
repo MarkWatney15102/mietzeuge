@@ -1,5 +1,5 @@
-import { login, logout } from "../lib/user";
-import { auth } from '../lib/firebase.config';
+//import { login, logout } from "../lib/user";
+//import { auth } from '../lib/firebase.config';
 
 export default function Login() {
   return <>
