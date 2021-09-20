@@ -11,3 +11,8 @@
 .priceKaution {
     font-size: 15px;
 }
+
+.additionalCosts {
+    margin-top: -10px;
+    float: right;
+}

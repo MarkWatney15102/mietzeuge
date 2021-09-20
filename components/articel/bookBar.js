@@ -19,15 +19,19 @@ export default function BookBar() {
                                     <h6 className={styles.priceLabel}>Kaution</h6>
                                     <p className={styles.priceKaution}>15€</p>
                                 </div>
+                                <p className={styles.additionalCosts}>zzgl. 2%</p>
                             </div>
                             <div class="input-group">
-                                <input type="number" class="form-control" name="days" id="days" value="1" />
+                                <input type="number" class="form-control" name="days" id="days" min="1" />
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="basic-addon1">Tage</span>
                                 </div>
                             </div>
                             <br />
-                            <input type="submit" class="btn btn-outline-success btn-block w-100" value="Mieten" />
+                            <label>Datum des Mietanfangs</label>
+                            <input type="date" class="form-control" name="dateFrom" id="dateFrom" />
+                            <br />
+                            <input type="submit" class="btn btn-outline-success btn-block w-100" value="Mietanfrage stellen" />
                         </form>
                     </div>
                 </div>
