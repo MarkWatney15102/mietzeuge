@@ -1,11 +1,10 @@
-import Image from 'next/image'
-
 import styles from '../../styles/Information.module.css';
 
-import ImageSlide from '../../views/articel/imageSlide';
-import BookBar from '../../views/articel/bookBar';
-import ArticelDescription from '../../views/articel/articelDescription';
-import ArticelTitle from '../../views/articel/articelTitle';
+import ImageSlide from '../../components/articel/imageSlide';
+import BookBar from '../../components/articel/bookBar';
+import ArticelDescription from '../../components/articel/articelDescription';
+import ArticelTitle from '../../components/articel/articelTitle';
+import ProfileBlock from '../../components/articel/profileBlock';
 
 export default function Information() {
   return <>
@@ -22,6 +21,8 @@ export default function Information() {
             </div>
             <div class="col-xs-12 col-sm-4">
                 <BookBar />
+                <br />
+                <ProfileBlock />
             </div>
         </div>
     </div>

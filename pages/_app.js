@@ -4,8 +4,8 @@ import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-import Navbar from '../views/lib/navbar';
-import SubNavbar from '../views/lib/subNavbar';
+import Navbar from '../components/lib/navbar';
+import SubNavbar from '../components/lib/subNavbar';
 
 //import { auth } from '../lib/firebase.config';
 
