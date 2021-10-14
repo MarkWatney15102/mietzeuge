@@ -12,7 +12,10 @@ export default function Navbar() {
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/items/information">Demo Artikel</a>
+                            <a class="nav-link" href="/items/1">Demo Artikel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/articel/list">Artikel Liste</a>
                         </li>
                     </ul>
                     <form class="d-flex">
