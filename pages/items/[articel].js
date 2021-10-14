@@ -20,7 +20,6 @@ const Information = ({query}) => {
         fetch('http://127.0.0.1:43921/articel/' + articelId).then(
             res => res.json()
         ).then((res) => {
-            console.log(res.articel[0]);
             setArticelData(res.articel[0]);
             setLoaded(true);
         });
@@ -44,6 +43,7 @@ const Information = ({query}) => {
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <BookBar
+                            articelId={articelData['ID']}
                             pricePerDay={articelData['cost_per_day']} 
                             deposit={articelData['deposit']}
                             additionalCost={articelData['additional_cost']}
