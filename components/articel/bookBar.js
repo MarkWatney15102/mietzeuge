@@ -8,7 +8,17 @@ const BookBar = ({ articelId, pricePerDay, deposit, additionalCost }) => {
     const saveArticelRequest = (e) => {
         const days = $('#days').val() ?? "";
         const startDay = $('#startDay').val() ?? "";
-        axios.post("http://127.0.0.1:43921/articel/request/" + articelId, {days: days, startDay: startDay});
+        
+        axios.post(
+            "http://127.0.0.1:43921/articel/request/" + articelId, 
+            {
+                days: days, 
+                startDay: startDay, 
+                pricePerDay: pricePerDay, 
+                deposit: deposit, 
+                additionalCost: additionalCost
+            }
+        );
     }
 
     return <>
