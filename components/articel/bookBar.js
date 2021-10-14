@@ -1,6 +1,6 @@
 import styles from '../../styles/BookBar.module.css';
 
-export default function BookBar() {
+export default function BookBar({ pricePerDay, deposit, additionalCost }) {
     return <>
         <div class="card">
             <div class="card-header">
@@ -13,13 +13,13 @@ export default function BookBar() {
                             <div className={styles.priceContainer}>
                                 <div className={styles.daylyPriceContainer}>
                                     <h5 className={styles.priceLabel}>Kosten pro Tage:</h5>
-                                    <p className={styles.price}>13,70€</p>
+                                    <p className={styles.price}>{pricePerDay}€</p>
                                 </div>
                                 <div className={styles.priceKaution}>
                                     <h6 className={styles.priceLabel}>Kaution</h6>
-                                    <p className={styles.priceKaution}>15€</p>
+                                    <p className={styles.priceKaution}>{deposit}€</p>
                                 </div>
-                                <p className={styles.additionalCosts}>zzgl. 2%</p>
+                                <p className={styles.additionalCosts}>zzgl. {additionalCost}%</p>
                             </div>
                             <div class="input-group">
                                 <input type="number" class="form-control" name="days" id="days" min="1" />
