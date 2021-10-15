@@ -37,3 +37,6 @@ a {
   width: 100% !important;
   object-fit: cover;
 }
+
+/* Notification */
+@import url("./notification.css");
