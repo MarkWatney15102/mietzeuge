@@ -1,0 +1,15 @@
+.profilePicture {
+    text-decoration: none;
+    color: black;
+    padding: 13px 18px;
+    background: aliceblue;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 5px;
+    transition: .2s ease-in all;
+}
+
+.profilePicture:active,
+.profilePicture:hover {
+    color: gray;
+}

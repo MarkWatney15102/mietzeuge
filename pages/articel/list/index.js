@@ -10,7 +10,6 @@ export default function ArticelList() {
         fetch('http://127.0.0.1:43921/articel/list').then(
             res => res.json()
         ).then((res) => {
-            console.log(res.articels);
             setArticelData(res.articels);
             setLoaded(true);
         });
@@ -31,7 +30,7 @@ export default function ArticelList() {
                     }
                 )
             }
-        </div>
+            </div>
         </>;
     }
 

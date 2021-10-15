@@ -1,0 +1,34 @@
+.articelBox {
+    background-color: rgb(238, 238, 238);
+    height: auto;
+    min-height: 85px;
+    border-radius: 5px;
+}
+
+.articelHeader {
+    padding: 5px 10px;
+}
+
+.articelTitle {
+    margin-bottom: 0;
+}
+
+.articelTitle a {
+    text-decoration: none;
+    color: #4b4b4b;
+    transition: .2s ease-in all;
+}
+
+.articelTitle a:hover, .articelTitle a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.articelBody {
+    padding: 5px 10px;
+}
+
+.articelCreateTime {
+    text-align: right;
+    font-size: 13px;
+}

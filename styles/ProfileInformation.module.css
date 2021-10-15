@@ -1,0 +1,11 @@
+.profileImageContainer {
+    margin: auto;
+    width: 40%;
+    margin-top: -65px;
+}
+
+.profileImage {
+    padding: 45px 47px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 100%;
+}
